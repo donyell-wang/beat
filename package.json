@@ -1,0 +1,36 @@
+{
+  "name": "beatjs",
+  "version": "0.1.0",
+  "description": "a lib help you detect remote scripts change",
+  "main": "dist/beat.cjs.js",
+  "module": "dist/beat.esm.js",
+  "browser": "dist/beat.umd.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:donyell-wang/beat.git"
+  },
+  "author": "Daniel Wang",
+  "license": "ISC",
+  "dependencies": {
+    "whatwg-fetch": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "rollup": "^0.65.0",
+    "rollup-plugin-babel": "^4.0.2",
+    "rollup-plugin-commonjs": "^9.1.6",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^4.0.0"
+  }
+}
